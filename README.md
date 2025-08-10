@@ -1,44 +1,45 @@
-# intel-data-processor
-Intel Data Processor
-A Python-based Army Intelligence Data Processor built as a collaborative Git & Trello exercise.
-This command-line application processes mission data and personnel records to generate intelligence summaries, filter information, and export reports.
+# 📡 Intel Data Processor
 
-📌 Features
-Mission Data Processing
+**Intel Data Processor** – A Python-based Army Intelligence Data Processor, built as a collaborative **Git** & **Trello** exercise.
+This **command-line application** processes mission data and personnel records to generate intelligence summaries, filter information, and export reports.
 
-Load and filter missions by status.
+---
 
-Count missions by priority level.
+## 📌 Features
 
-Personnel Data Analysis
+### 🗂 Mission Data Processing
 
-Filter personnel by clearance level.
+* Load and filter missions by status
+* Count missions by priority level
 
-Group personnel by unit.
+### 👤 Personnel Data Analysis
 
-Report Generation
+* Filter personnel by clearance level
+* Group personnel by unit
 
-Mission summary reports.
+### 📄 Report Generation
 
-Personnel clearance reports.
+* Mission summary reports
+* Personnel clearance reports
+* Export data to file
 
-Export data to file.
+### 💻 Interactive Command-Line Interface
 
-Interactive Command-Line Interface
+* Menu-driven navigation for easy use
 
-Menu-driven navigation for easy use.
+---
 
-🛠 Technologies & Tools
-Python 3.x – Core application logic.
+## 🛠 Technologies & Tools
 
-Git & GitHub – Version control and collaboration.
+* **Python 3.x** – Core application logic
+* **Git & GitHub** – Version control and collaboration
+* **Trello** – Task management and workflow tracking
 
-Trello – Task management and workflow tracking.
+---
 
-📂 Project Structure
-bash
-Copy
-Edit
+## 📂 Project Structure
+
+```
 intel-data-processor/
 ├── mission_processor.py      # Mission data functions
 ├── personnel_analyzer.py     # Personnel data functions
@@ -47,27 +48,36 @@ intel-data-processor/
 ├── test_data.py               # Simple functional tests
 ├── .gitignore                # Ignore sensitive/temp files
 └── README.md                 # Project documentation
-🚀 Getting Started
-1. Clone the repository
-bash
-Copy
-Edit
+```
+
+---
+
+## 🚀 Getting Started
+
+1️⃣ **Clone the repository**
+
+```bash
 git clone https://github.com/<your-username>/intel-data-processor.git
 cd intel-data-processor
-2. Run the application
-bash
-Copy
-Edit
+```
+
+2️⃣ **Run the application**
+
+```bash
 python main.py
-3. Run tests
-bash
-Copy
-Edit
+```
+
+3️⃣ **Run tests**
+
+```bash
 python test_data.py
-📋 Example Usage
-markdown
-Copy
-Edit
+```
+
+---
+
+## 📋 Example Usage
+
+```
 === ARMY INTELLIGENCE DATA PROCESSOR ===
 
 1. Mission Summary
@@ -75,53 +85,53 @@ Edit
 3. Filter Active Missions
 4. Show Top Secret Personnel
 5. Exit
-👥 Team Workflow
-This project was developed in feature branches for each module:
+```
 
-feature-mission-data → Mission data processing.
+---
 
-feature-personnel → Personnel data analysis.
+## 👥 Team Workflow
 
-feature-reports → Report generation.
+**Branch workflow**:
 
-Merged into main via Pull Requests.
+* `feature-mission-data` → Mission data processing
+* `feature-personnel` → Personnel data analysis
+* `feature-reports` → Report generation
 
-Key Git concepts practiced:
+Merged into `main` via Pull Requests.
 
-Local vs remote repositories.
+**Key Git concepts practiced**:
 
-Branch creation and merging.
+* Local vs remote repositories
+* Branch creation and merging
+* Pull Requests and code reviews
+* Conflict resolution
+* Revert commits
+* `.gitignore` usage
 
-Pull Requests and code reviews.
+**Trello workflow**:
 
-Conflict resolution.
+* **Backlog → In Progress → Code Review → Done**
+* Cards assigned to team members with due dates
 
-Revert commits.
+---
 
-.gitignore usage.
+## 🔒 Security
 
-Trello Workflow:
+`.gitignore` ensures **sensitive data** (classified files, keys, temporary files) are **not committed**.
 
-Backlog → In Progress → Code Review → Done
+---
 
-Cards assigned to team members with due dates.
+## 🧑‍💻 Team Members
 
-🔒 Security
-The .gitignore ensures sensitive data (classified files, keys, temporary files) are not committed.
+* **Student A** – Mission Data Processor
+* **Student B** – Personnel Analyzer & Final Integration
+* **Student C** – Report Generator
 
-🧑‍💻 Team Members
-Student A – Mission Data Processor
+---
 
-Student B – Personnel Analyzer & Final Integration
+## 📅 Reflection
 
-Student C – Report Generator
-
-📅 Reflection
-Branches: Allowed isolated work without overwriting teammates’ code.
-
-Conflicts: Learned how to resolve merge conflicts in Git.
-
-Code Review: Improved code quality through peer review.
-
-Data Processing: Functions could be adapted for real-world intelligence analysis.
-
+* **Branches**: Allowed isolated work without overwriting teammates’ code
+* **Conflicts**: Learned how to resolve merge conflicts in Git
+* **Code Review**: Improved code quality through peer review
+* **Data Processing**: Functions could be adapted for real-world intelligence analysis
